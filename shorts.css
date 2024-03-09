@@ -1,0 +1,25 @@
+.youtube-shorts-main-grid
+{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap:20px;
+  margin-bottom:30px;
+  margin-top:25px;
+}
+.short-div
+{
+  z-index:-10;
+  width:100%;
+  cursor:pointer;
+}
+
+.shorts-thmb
+{
+  width:100%;
+  border-radius:12px;
+}
+
+.shorts-icon-title
+{
+  margin-top:30px;
+}

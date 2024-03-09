@@ -1,0 +1,46 @@
+.iron-selector {
+  height: 56px;
+  position: fixed;
+  top: 56px;
+  left: 250px;
+  right: 0;
+  background-color: white;
+  z-index:1;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.iron-selector-options {
+  font-size: 14px;
+  font-family: roboto, arial;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 12px;
+  font-weight: 450;
+  cursor:pointer;
+  white-space: nowrap;
+}
+
+.next-iron-selector {
+  height: 16px;
+}
+
+.next-iron-selector-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.next-iron-selector-div:hover {
+  background-color: rgba(235, 235, 235, 0.8);
+}
